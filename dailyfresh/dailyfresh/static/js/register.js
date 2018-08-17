@@ -73,7 +73,7 @@ $(function(){
 		{
 			$('#pwd').next().hide();
 			error_password = false;
-		}		
+		}
 	}
 
 
@@ -91,8 +91,8 @@ $(function(){
 		{
 			$('#cpwd').next().hide();
 			error_check_password = false;
-		}		
-		
+		}
+
 	}
 
 	function check_email(){
@@ -105,7 +105,7 @@ $(function(){
 		}
 		else
 		{
-			$('#email').next().html('你输入的邮箱格式不正确')
+			$('#email').next().html('你输入的邮箱格式不正确');
 			$('#email').next().show();
 			error_check_password = true;
 		}
@@ -131,10 +131,4 @@ $(function(){
 	});
 
 
-
-
-
-
-
-
-})
+});
